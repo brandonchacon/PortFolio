@@ -8,7 +8,7 @@ html,body {
 header {
  background-color: #333333;
  position: fixed;
- width: 99.7%;
+ width: 99.75%;
  border-color: white;
  border-style: solid; 
  border-width: 1px;
@@ -17,7 +17,7 @@ header {
 
 footer {
     background-color: #333333;
-    width: 99.7%;
+    width: 99.75%;
     border-color: white;
     border-style: solid; 
     border-width: 1px;
