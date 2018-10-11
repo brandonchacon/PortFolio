@@ -7,7 +7,8 @@ html,body {
 
 header {
  background-color: #333333;
- position: fixed;
+ /*position: fixed;*/
+ position:absolute;
  width: 100%;
  border-color: white;
  border-style: solid; 
