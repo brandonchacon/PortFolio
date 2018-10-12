@@ -23,13 +23,14 @@ footer {
     border-width: 1px;
 }
 
-li {
+ul li {
     font-weight: 600;
     min-width: 100px;  
     max-width: 300px;
     text-align: center; 
     display: inline-block;
 }
+
 
 html {
    background-color: rgb(87, 87, 145);
