@@ -75,9 +75,9 @@ a {
     animation-iteration-count: infinite;
 }
 @keyframes example {
-    0%   {background-color:red; left:200px; top:0px;}
-    25%  {background-color:yellow; left:400px; top:0px;}
-    50%  {background-color:blue; left:650px; top:0px;}
-    75%  {background-color:green; left:900px; top:0px;}
-    100% {background-color:red; left:200px; top:0px;}
+    0%   {background-color:red; left:/*200px*/5vw; top:0px;}
+    25%  {background-color:yellow; left:/*400px*/20vw; top:0px;}
+    50%  {background-color:blue; left:/*650px*/40vw; top:0px;}
+    75%  {background-color:green; left:/*900px*/65vw; top:0px;}
+    100% {background-color:red; left:/*200px*/5vw; top:0px;}
 }
