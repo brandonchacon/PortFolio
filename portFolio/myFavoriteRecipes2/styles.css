@@ -1,0 +1,38 @@
+h1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("orange\ border.png") 30 round;
+}
+
+body {
+    background-image: url("movingline.jpeg");
+}
+
+p {
+    color: red ;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color:red; left:200px; top:0px;}
+    25%  {background-color:yellow; left:400px; top:0px;}
+    50%  {background-color:blue; left:650px; top:0px;}
+    75%  {background-color:green; left:900px; top:0px;}
+    100% {background-color:red; left:200px; top:0px;}
+}
+.animation{
+    width: 270px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
