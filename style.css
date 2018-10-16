@@ -81,3 +81,7 @@ a {
     75%  {background-color:green; left:/*900px*/65vw; top:0px;}
     100% {background-color:red; left:/*200px*/5vw; top:0px;}
 }
+
+h2{
+    text-align: center;
+}
