@@ -76,7 +76,7 @@ a {
     background-color: red;
     position: relative;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 @keyframes example {
